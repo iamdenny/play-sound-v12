@@ -1,26 +1,26 @@
 {
-  "name": "play-sound",
-  "version": "0.0.5",
-  "description": "Play audio files by shelling out to available audio tool.",
+  "name": "play-sound-v12",
+  "version": "0.1.0",
+  "description": "Play audio files by shelling out to available audio tool based on node.js v0.12.x.",
   "main": "index.js",
   "scripts": {
     "test": "export PATH=$PATH:./shims && node_modules/.bin/mocha tests.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shime/play-sound.git"
+    "url": "git://github.com/iamdenny/play-sound-v12.git"
   },
   "keywords": [
     "audio",
     "sound",
     "play"
   ],
-  "author": "Hrvoje Simic <shime.ferovac@gmail.com>",
+  "author": "Denny Lim <hi.iamdenny@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shime/play-sound/issues"
+    "url": "https://github.com/iamdenny/play-sound-v12/issues"
   },
-  "homepage": "https://github.com/shime/play-sound",
+  "homepage": "https://github.com/iamdenny/play-sound-v12",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^1.21.4",
@@ -29,6 +29,6 @@
     "sinon": "^1.10.3"
   },
   "dependencies": {
-    "find-exec": "0.0.7"
+    "find-exec-v12": "0.1.0"
   }
 }
