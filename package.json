@@ -1,6 +1,6 @@
 {
   "name": "play-sound-v12",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Play audio files by shelling out to available audio tool based on node.js v0.12.x.",
   "main": "index.js",
   "scripts": {
