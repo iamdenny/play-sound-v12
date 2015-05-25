@@ -1,6 +1,6 @@
 var fs               = require('fs')
   , util             = require('util')
-  , findExec         = require('find-exec')
+  , findExec         = require('find-exec-v12')
   , child_process    = require('child_process')
   , players          = [
                         'mplayer',
